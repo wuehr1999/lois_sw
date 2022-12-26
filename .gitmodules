@@ -1,0 +1,9 @@
+[submodule "colcon_ws/lois_ecu_ros"]
+	path = colcon_ws/lois_ecu_ros
+	url = https://github.com/wuehr1999/lois_ecu_ros.git
+[submodule "ws/colcon/lois_ecu_ros"]
+	path = ws/colcon/lois_ecu_ros
+	url = https://github.com/wuehr1999/lois_ecu_ros.git
+[submodule "ws/lois_frontend"]
+	path = ws/lois_frontend
+	url = https://github.com/wuehr1999/lois_frontend.git

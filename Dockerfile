@@ -2,7 +2,7 @@ FROM osrf/ros:galactic-desktop
 
 USER root
 
-RUN apt-get -y update
+RUN apt-get -y update --fix-missing
 RUN apt-get -y install python3 python3-pip
 RUN apt-get -y install python3-opencv
 RUN apt-get -y install ros-galactic-rviz2
