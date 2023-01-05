@@ -2,6 +2,8 @@ FROM arm64v8/ubuntu:20.04
 
 USER root
 
+WORKDIR /usr/src/app
+
 RUN apt-get update -y
 RUN apt-get install -y apt-utils
 RUN apt-get install -y locales
@@ -38,3 +40,5 @@ RUN apt-get -y install ros-galactic-rviz2
 RUN apt-get -y install ros-galactic-rosbridge-server
 RUN apt-get -y install tmux
 RUN pip3 install pyserial
+RUN apt-get -y install ros-galactic-realsense2-camera
+RUN apt-get -y install ros-galactic-compressed-image-transport

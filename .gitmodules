@@ -7,3 +7,6 @@
 [submodule "ws/lois_frontend"]
 	path = ws/lois_frontend
 	url = https://github.com/wuehr1999/lois_frontend.git
+[submodule "ws/colcon/lois_pls"]
+	path = ws/colcon/lois_pls
+	url = https://github.com/wuehr1999/lois_pls.git

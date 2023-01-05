@@ -24,7 +24,8 @@ docker run \
         --volume="$XAUTH:$XAUTH" \
         -it --cidfile dockerid.id \
         -v ${PWD}/ws:/home/lois \
-        --device=/dev/ttyTHS1 \
+        --privileged \
+        -v /dev:/dev \
         --network host \
         --cap-add SYS_TIME \
         lois_galactic /bin/bash
