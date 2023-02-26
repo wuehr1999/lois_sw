@@ -1,12 +1,9 @@
-[submodule "colcon_ws/lois_ecu_ros"]
-	path = colcon_ws/lois_ecu_ros
-	url = https://github.com/wuehr1999/lois_ecu_ros.git
-[submodule "ws/colcon/lois_ecu_ros"]
-	path = ws/colcon/lois_ecu_ros
-	url = https://github.com/wuehr1999/lois_ecu_ros.git
-[submodule "ws/lois_frontend"]
-	path = ws/lois_frontend
-	url = https://github.com/wuehr1999/lois_frontend.git
-[submodule "ws/colcon/lois_pls"]
-	path = ws/colcon/lois_pls
-	url = https://github.com/wuehr1999/lois_pls.git
+[submodule "robot/ws/lois_frontend"]
+	path = robot/ws/lois_frontend
+	url = git@github.com:wuehr1999/lois_frontend.git
+[submodule "robot/ws/colcon/lois_ecu"]
+	path = robot/ws/colcon/lois_ecu
+	url = git@github.com:wuehr1999/lois_ecu.git
+[submodule "robot/ws/colcon/lois_pls"]
+	path = robot/ws/colcon/lois_pls
+	url = git@github.com:wuehr1999/lois_pls.git
