@@ -28,4 +28,4 @@ docker run \
         -v /dev:/dev \
         --network host \
         --cap-add SYS_TIME \
-        lois_galactic /bin/bash
+        lois_galactic /home/lois/run_sw.sh

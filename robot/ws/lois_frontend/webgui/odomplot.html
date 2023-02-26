@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="icon" href="resources/jecc.png" type="image/png">
+<style>
+body
+{ 
+  font-family: arial, sans-serif;
+}
+</style>
+  <title>Odometry</title>
+</head>
+        <script src = "javascript/jquery.js" tpye = "text/javascript"></script>
+        <script src = "javascript/plotly-latest.min.js" type = "text/javascript"></script>
+        <script src = "javascript/odomplot.js" type = "text/javascript"></script>
+        <script src = "javascript/eventemitter.js" type = "text/javascript"></script>
+        <script src = "javascript/roslib.js" type = "text/javascript"></script>
+        <script language="javascript" type = "text/javascript">
+            init();
+            console.log("init");
+        </script>
+<body>
+
+<h2>Odometry Plot</h2>
+<div id = "xplot"></div>
+<div id = "yplot"></div>
+<div id = "yawplot"></div>
+<button id = "button_start" style = "float: left;" onclick = "button_start_onclick()">Start</button>
+<button id = "button_stop" style = "float: left;" onclick = "button_stop_onclick()">Stop</button>
+</body>
+</html>

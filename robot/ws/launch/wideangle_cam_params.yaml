@@ -1,0 +1,11 @@
+/**:
+    ros__parameters:
+      video_device: "/dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB_2.0_Camera-video-index0"
+      framerate: 10.0
+      io_method: "mmap"
+      frame_id: "camera"
+      pixel_format: "yuyv"
+      image_width: 1280
+      image_height: 960
+      camera_name: "test_camera"
+      camera_info_url: "/home/lois/launch/wideangle_cam_info.yaml"

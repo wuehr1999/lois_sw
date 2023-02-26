@@ -1,7 +1,9 @@
 #!/bin/bash
 
-cd colcon
+cd /home/lois/colcon
+rm -r build
+rm -r install
+rm -r log
 source /opt/ros/galactic/setup.bash
 colcon build --symlink-install
-source install/setup.bash
-cd ..
+exit

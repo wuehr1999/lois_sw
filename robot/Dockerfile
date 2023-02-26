@@ -40,5 +40,10 @@ RUN apt-get -y install ros-galactic-rviz2
 RUN apt-get -y install ros-galactic-rosbridge-server
 RUN apt-get -y install tmux
 RUN pip3 install pyserial
-RUN apt-get -y install ros-galactic-realsense2-camera
+RUN apt-get -y install ros-galactic-realsense*
+RUN apt-get -y install ros-galactic-librealsense*
+RUN apt-get -y install ros-galactic-rtabmap*
 RUN apt-get -y install ros-galactic-compressed-image-transport
+RUN apt-get -y install ros-galactic-usb-cam
+RUN apt-get -y install chrony
+COPY ./ws/chrony/chrony.conf /etc/chrony

@@ -1,0 +1,68 @@
+#div_road
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    overflow-x: "scroll";
+    overflow-y: "scroll";
+}
+
+#canvas_road 
+{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	border: 5px solid red;
+}
+
+#div_filter
+{
+    position: absolute;
+    top: 450px;
+    left: 25px;
+    overflow-x: "scroll";
+    overflow-y: "scroll";
+}
+
+#canvas_filter 
+{
+	position: absolute;
+  top: 0px;
+  left: 0px;
+	border: 5px solid red;
+}
+
+#div_global
+{
+    position: absolute;
+    top: 25px;
+    left: 650px;
+    overflow-x: "scroll";
+    overflow-y: "scroll";
+}
+
+#canvas_global
+{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	border: 5px solid red;
+}
+
+#div_local
+{
+    position: absolute;
+    top: 450px;
+    left: 650px;
+    overflow-x: "scroll";
+    overflow-y: "scroll";
+}
+
+#canvas_local 
+{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	border: 5px solid red;
+}
+
