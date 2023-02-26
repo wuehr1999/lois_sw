@@ -5,5 +5,5 @@ rm -r build
 rm -r install
 rm -r log
 source /opt/ros/galactic/setup.bash
-colcon build --symlink-install
+colcon build 
 exit
